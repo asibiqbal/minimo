@@ -1,0 +1,173 @@
+/* fonts-
+font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+}
+/*header start*/
+header{
+	padding-top: 20px;
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	float: left;
+	width: 20%;
+	margin-top: 20px;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	float: right;
+	width: 65%;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style:none;
+	float: left;
+}
+.menu ul li a{
+	text-decoration: none;
+	margin-right: 50px;
+	font-family: 'Playfair Display', serif;
+	color: #626262;	
+	cursor: pointer;
+	text-transform:uppercase;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	color: #000000;
+	border-bottom:1px solid #000000;
+}
+/*header end*/
+/*banner start*/
+.banner{
+	width: 100%;
+}
+.banner img{
+	witdh: 100%;
+}
+/*banner end*/
+/*gateway part start*/
+.gateway{
+	padding: 50px;
+}
+.container-two{
+	width: 80%;
+	margin: 0 auto;
+	color: #626262;
+}
+.light{
+	margin:0;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	color: #b4ad9e;
+	text-transform:uppercase;
+}
+.multi-h{
+	font-size: 30px;
+	font-weight: 400;
+	margin: 20px 0 25px 0;
+}
+.multi-p{
+	margin-bottom: 30px;
+	line-height:1.5rem;
+}
+/*gateway part end*/
+/*blog part start*/
+.blog{
+	padding-bottom: 60px;
+}
+.blog-content{
+	overflow: hidden;
+	width: 100%;
+}
+.single-post img{
+	margin-bottom: 25px;
+}
+.single-post{
+	width: 45%;
+	float: left;
+	
+	margin-top: 25px;
+}
+.single-1, .single-2{
+	margin-top:0;
+	margin-bottom: 25px;
+}	
+.single-2, .single-4{
+	margin-left: 10%;
+}
+.blog-p{
+	margin-top: 30px;
+	margin-bottom: 0;
+}
+/*blog part end*/
+/*sing up start*/
+.newsletter{
+	padding: 50px 0;
+	background: #f0f0f0;
+	padding-bottom: 60px;
+}
+.signup{	
+	text-align:center;
+}
+.signup h2{
+	color: black;
+	font-size: 30px;
+	margin-bottom: 50px;
+}
+.for_form input{
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid black;
+	width: 30px;
+	font-size: 18px;
+	padding: 10px 50px 10px 50px;
+}
+.for_form{
+	width: 30%;
+	margin: 0 auto;
+	position: relative;
+}
+.for_form button{
+	border: none;
+	background: transparent;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.blog-2{
+	padding-top: 50px;
+}
+/*sign up,end*/
+.footm{
+	background: #f0f0f0;
+}
+.footm ul{
+	overflow: hidden;
+}
+.footm ul li{
+	list-style:none;
+	float: left
+}
+.footm ul li a{
+	color:black;
+	font-size: 16px;
+	font-weight: 900;
+	text-align:center;
+	padding: 10px 10px;
+	display:inline-block
+}
